@@ -107,8 +107,9 @@ main {
     align-items: center;
 }
 .heroLeft {
-    width: 55%;
-    border-radius: 3rem;
+    width: 53%;
+    border-radius: 1.5rem;
+    margin-right: 20px;
     display: flex;
     padding: 0px 20px;
     justify-content: center;
@@ -156,4 +157,156 @@ main {
     border: none;
     color: white;
     background-color: #FA4D13;
+}
+.heroRight {
+    width: 42%;
+    height: 450px;
+    position: relative;
+    background: url(/advisora/images/hero1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    border-radius: 1.5rem;
+    filter: brightness(75%);
+}
+#box1, #box2 {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 5px 9px;
+    font-size: 0.9rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(27, 21, 21, 0.5);
+}
+.pos1 {
+    position: absolute;
+    top: 40%;
+}
+.pos2 {
+    position: absolute;
+    right: 20px;
+    top: 55%;
+}
+#box1 i, #box2 i{
+    color: white;
+    background-color: #FA4D13;
+    padding: 5px;
+    border-radius: 1rem;
+}
+.box3 {
+    background-color: white;
+    color: black;
+    width: 100px;
+    box-shadow: 0px 0px 10px rgba(27, 21, 21, 0.5);
+    border-radius: 1rem;
+    padding: 18px 10px;
+    position: absolute;
+    top: 60%;
+}
+.bar {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.box3 h2 {
+    color: #FA4D13;
+    font-weight: 400;
+}
+.box3 h5 {
+    font-weight: 550;
+    font-size: 1rem;
+}
+.bars {
+    width: 25px;
+    height: 35px;
+    background-color: #D9D7CA;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.bar1 {
+    background-color: #FA4D13;
+    height: 30%;
+}
+.bar2 {
+    background-color: #FA4D13;
+    height: 40%;
+}
+.bar3 {
+    background-color: #FA4D13;
+    height: 25%;
+}
+.bar4 {
+    background-color: #FA4D13;
+    height: 25%;
+}
+.bar5 {
+    background-color: #FA4D13;
+    height: 50%;
+}
+.bar6{
+    background-color: #FA4D13;
+    height: 60%;
+}
+/* sec 3 design */
+
+.section-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sec2 {
+    width: 95%;
+    background-color: #F1ECEC;
+    margin-top: 40px;
+    border-radius: 1rem;
+}
+.sec2In {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 18px;
+}
+.para p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.para p span {
+    color: #a1a09e;
+}
+.sec2Btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sec3In {
+    width: 93%;
+    background-color: #093530;
+    padding: 20px 15px;
+    border-radius: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.sec3Para h4 {
+    font-size: 2rem;
+    font-weight: 450;
+    line-height: 3rem;
+    margin-bottom: 40px;
+}
+.sec3Para p{
+    font-size: 0.8rem;
+    font-weight: 350;
 }
