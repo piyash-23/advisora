@@ -347,3 +347,39 @@ main {
     font-weight:400 ;
     font-size: 0.85rem;
 }
+.btns {
+    margin-top: 15px;
+}
+.arrow {
+    border: none;
+    font-size: 1.25rem;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 3rem;
+}
+
+/* section 4 design */
+.sec4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.sec4In {
+    width: 95%;
+    background-color: #F1ECEC;
+    padding: 15px 18px;
+    border-radius: 1rem;
+}
+.headingBox {
+    text-align: center;
+}
+.headingBox h5{
+  font-size: 1.35rem;
+  font-weight: 550;
+}
+.headingBox p {
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
