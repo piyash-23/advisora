@@ -365,6 +365,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .sec4In {
     width: 95%;
@@ -382,4 +383,301 @@ main {
 .headingBox p {
     font-size: 0.8rem;
     margin-top: 20px;
+}
+/* section 4 design */
+.firstLineBox {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.content {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.Pbarin {
+    display: flex;
+    align-items: center;    
+}
+.barDiv .bar1 {
+    height: 80%;
+}
+.Pbarin .bars {
+    background-color: #a1a09e;
+    margin-right: 19px;
+}
+.Pbarin h2{
+    margin-top: 20px;
+}
+.Pbarin h2 span {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.firstLineBox .box-1 {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.245);
+    padding: 20px;
+    border-radius: 1rem;
+}
+.firstLineBox .box-1 h2 {
+    margin-bottom: 20px;
+}
+.firstLineBox .box-2 .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainIcon {
+    border: 1px solid #FA4D13;
+    padding: 10px;
+    border-radius: 50%;
+}
+.mainIcon i {
+    font-size: 3rem;
+    background-color: #FA4D13;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+}
+.content span {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.barContent .leftside #barHead {
+    font-size: 0.5rem;
+}
+.barContent {
+    display: flex;
+}
+.leftside {
+    margin-right: 20px;
+}
+#dollar {
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+#upDollar {
+    font-size: 0.9rem;
+    color: rgb(71, 200, 71);
+    font-weight: 600;
+}
+#downDollar {
+    font-size: 0.9rem;
+    color: rgb(195, 39, 39);
+    font-weight: 600;
+}
+.usd #dol {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.usd {
+    display: flex;
+    margin-top: 10px;
+}
+.usd h3 {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.riDiv .bar1 {
+    height: 90%;
+}
+.righBar .bars {
+    background-color: #a1a09e;
+}
+/* section 5 here */
+.sec5 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec5in {
+    width: 95%;
+    background-color: #093530;
+    padding: 15px;
+    border-radius: 1rem;
+}
+.sec5in .heading {
+    text-align: center;
+}
+.heading h5 {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.heading p {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.sec5in .mainBoxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.mainBoxes .box5 {
+    width: 30%;
+    min-height: 150px;
+    margin: 0px 9px;
+}
+.Box52 img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1rem;
+}
+.box5 .sub1 {
+    background-color: rgba(255, 255, 255, 0.229);
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.1);
+}
+.idiv i {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #F1ECEC;
+    color: #FA4D13;
+    border-radius: 0.75rem;
+    margin-bottom: 50px;
+}
+.para {
+    color: white;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+.para span {
+    font-weight: 500;
+    font-size: 1rem;
+}
+/* footer design */
+footer {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footIn {
+    width: 95%;
+    background-color: #131111;
+    padding: 15px 20px;
+    border-radius: 1rem;
+}
+.upFleft {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.upFleft h4 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 40px;
+}
+.upFoot {
+    height: 70px;
+    margin-bottom: 30px;
+}
+.upFright {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    text-align: end;
+}
+.upRf {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.upFright input[type="text"] {
+    border: none;
+    padding: 7px 10px;
+    background-color: #2A2829;
+    border-radius: 1rem;
+    color: white;
+    outline: none;
+}
+.upFright input[type="button"] {
+    padding: 7px 10px ;
+    background-color: #FA4D13;
+    color: white;
+    border: none;
+    font-size: 0.75rem ;
+    font-weight: 400;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#hr {
+    display: flex;
+    justify-content: center;
+}
+footer hr {
+    width: 90%;
+    color: #a1a09e;
+}
+.footBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    margin-top: 25px;
+}
+.Fbox:nth-child(1){
+    width: 20%;
+    color: white;
+}
+.fHead h3 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.Fbox h5 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+}
+#mail , #num , #loc {
+    color: white;
+    font-size: 0.85rem;
+    line-height: 25px;
+}
+.Fbox h4{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+#signUp a {
+    color: #F1ECEC;
+    font-size: 0.8rem;
+}
+.Fbox h6 {
+    color: white;
+    font-weight: 400;
+}
+.Fbox ul {
+    margin-top: 20px;
+}
+.Fbox  ul li {
+    list-style:none;
+    display: inline-block;
+    margin: 0px 8px;
+}
+.Fbox ul li a {
+    color: #F1ECEC;
+    padding: 10px 13px;
+    border: 1px solid #FA4D13 ;
+    border-radius: 1rem;
+    transform: 0.3s ease-in-out;
+}
+.Fbox ul li a:hover {
+    border: none;
+    background-color: #FA4D13;
 }
